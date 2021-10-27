@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TBMS0N2EV9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TBMS0N2EV9');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./img/JF-Favicon.png">
+    <title>Justin Website</title>
+</head>
+<body>
+    <div>
+        <header>
+            <nav id="navbar">
+                <div class="container">
+                    <h1 class="logo"><a href="/index.html">JSTN</a></h1>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="homwork.html">Homework</a></li>
+                        <li><a class="current" href="contact.html">Contact</a></li>
+                        <!--
+                        <li><a href="../wdv205/wdv205.html">WDV205</a></li>
+                        <li><a href="../wdv221/wdv221.html">WDV221</a></li>
+                        <li><a href="../wdv151/wdv151.html">WDV151</a></li>
+                        <li><a href="../wdv240/wdv240.html">WDV240</a></li>
+                        -->
+                    </ul>  
+                </div>
+            </nav>
+            <div id="contactForm">
+                <form action="formHandler.php" method="post">
+                    <h1>Contact Me</h1>
+
+                    <!-- <label for="fname">First Name</label> -->
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+                    <!-- <label for="lname">Last Name</label> -->
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+                    <!-- <label for="email">Email</label> -->
+                    <input type="text" id="email" name="email" placeholder="Email Address">
+
+                    <select name="contact" id="reasons">
+                        <option value="default">Reason For Contact</option>
+                        <option value="Question">Question</option>
+                        <option value="Job Offering">Job Offering</option>
+                        <option value="Contacting">Contacting</option>
+                    </select>
+                    
+                   <!--  <label for="comments">Comments</label> -->
+                    <textarea name="comments" id="comments" cols="40" rows="7" placeholder="Ask a question.."></textarea>
+
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </header>
+
+    </div>
+</body>
+</html>
