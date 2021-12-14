@@ -1,0 +1,401 @@
+$primary: #1B263B;
+$secondary: #E0E1DD;
+$card: #606C38;
+$third: #415A77;
+
+
+.myContainer {
+    background-color: $secondary;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+#myNavBar {
+    background-color: $primary;
+    box-shadow: 0px 2px 9px black;
+    z-index: 1;
+    a {
+        color: $secondary
+    }
+    a:hover {
+        color: #afafaf;
+    }
+    .myBrand{
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-left: 30px;
+    }
+    .viewCart {
+        margin-top: 7px;
+    }
+}
+
+hr {
+    border-top: 3px solid $primary;
+    margin-top: 35px;
+}
+
+.headImage {
+    background-image: url('../img/background/toa-heftiba-FV3GConVSss-unsplash.jpg');
+    height: 50vh;
+    background-size: cover;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    h1, p {
+        color: $secondary;
+        text-shadow: 5px 5px 8px black;
+    }
+    h1 {
+        font-size: 55px;
+    }
+    p {
+        font-size: 25px;
+    }
+    button {
+        background-color: $primary;
+        color: $secondary;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    button:hover {
+        background-color: #2f4369;
+    }
+}
+
+.home-card {
+    margin-left: 30px;
+    a {
+        text-decoration: none;
+        color: $primary;
+    }
+    .card {
+        margin-right: 30px;
+        margin-top: 15px;
+    }
+    img {
+        border: 5px solid $primary;
+    }
+    .display-card {
+    background-color: $secondary;
+    font-size: 30px;
+    }
+}
+
+.furniture-card-outer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .furniture-card {
+        background-color: $third;
+        color: $secondary;
+        img {
+            border: 7px solid $primary;
+        }
+        .paypalForm {
+            display: flex;
+            flex-direction: column;
+            input {
+                width: 120px;
+                display: flex;
+                margin-left: 30%;
+                margin-top: 15px;
+            }
+            img {
+                display: none;
+            }
+        }
+    }   
+}
+
+.quality {
+    background-color: $third;
+    color: $secondary;
+    padding: 90px;
+    img {
+        margin-bottom: 20px;
+        border: 5px solid $primary;
+    }
+}
+
+.about {
+    padding: 50px;
+    img {
+        margin-bottom: 10px;
+        border: 7px solid $primary;
+    }
+}
+
+
+
+.digitalGoodCard {
+    background-color: $third;
+    color: $secondary;
+    margin: 50px;
+    padding: 50px;
+    text-shadow: 5px 5px 9px black;
+}
+
+.autoDownload{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.homePageButton {
+    margin-top: 30px;
+    a {
+        background-color: $primary;
+        color: $secondary;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    
+}
+
+
+#contactForm {
+    margin-right: 17%;
+    margin-left: 17%;
+    border-radius: 5px;
+    background-color: $third;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+        h1 {
+            margin: 15px;
+            color: $secondary;
+            text-align: center;
+            text-shadow: 5px 5px 9px black;
+        }
+        input[type=text], select, textarea {
+            background-color: $secondary;
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        input[type=submit] {
+            background-color: $secondary;
+            width: 100%;
+            color: $third;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: not-allowed;
+            margin-top: 15px;
+        }
+        input[type=submit]:hover {
+            background-color: #c0c0c0;
+        }
+    }
+
+    #contactSubmission {
+        background-color: $third;
+        color: $secondary;
+        padding: 20px;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        border-radius: 25px;
+        margin-top: 35px;
+        h1 {
+            text-shadow: 5px 5px 9px black;
+        }
+    }
+
+    .login {
+        margin-right: 17%;
+        margin-left: 17%;
+        border-radius: 5px;
+        background-color: $third;
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+            h1 {
+                margin: 15px;
+                color: $secondary;
+                text-align: center;
+                text-shadow: 5px 5px 9px black;
+            }
+            input[type=text] {
+                background-color: $secondary;
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #333;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+            input[type=submit]  {
+                background-color: $secondary;
+                width: 100%;
+                color: $third;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: not-allowed;
+                margin-top: 15px;
+            }
+            input[type=submit]:hover {
+                background-color: #c0c0c0;
+            }
+            input[type=reset]{
+                background-color: $secondary;
+                width: 100%;
+                color: $third;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                margin-top: 15px;
+            }
+            input[type=password] {
+                background-color: $secondary;
+                width: 100%;
+                color: $third;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: not-allowed;
+                margin-top: 15px;
+            }
+            .errMsg {
+                color: $secondary;
+            }
+        }
+
+        .updateForm {
+            background-color: $third;
+            text-decoration: none;
+            color: red;
+        }
+
+        .inputProduct {
+            background-color: #415A77;
+            color: #E0E1DD;
+            padding: 35px;
+        }
+
+
+/* Hero Image Pages */
+
+.headFurnitureImage {
+    background-image: url('../img/background/dane-deaner-_-KLkj7on_c-unsplash.jpg');
+    height: 50vh;
+    background-size: cover;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    h1 {
+        color: $secondary;
+        font-size: 65px;
+        text-shadow: 5px 5px 9px black;
+    }
+}
+.headAboutImage {
+    background-image: url('../img/background/kaleb-tapp-J59wWPn09BE-unsplash.jpg');
+    height: 50vh;
+    background-size: cover;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    h1 {
+        color: $secondary;
+        font-size: 65px;
+        text-shadow: 5px 5px 9px black;
+    }
+}
+.headContactImage {
+    background-image: url('../img/background/dane-deaner-_-KLkj7on_c-unsplash.jpg');
+    height: 50vh;
+    background-size: cover;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    h1 {
+        color: $secondary;
+        font-size: 65px;
+        text-shadow: 5px 5px 9px black;
+    }
+}
+
+.headDeskImage {
+    background-image: url('../img/background/alexandru-acea-XEB8y0nRRP4-unsplash.jpg');
+    height: 50vh;
+    background-size: cover;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    h1 {
+        color: $secondary;
+        font-size: 65px;
+        text-shadow: 5px 5px 9px black;
+    }
+}
+
+.headTableImage {
+    background-image: url('../img/background/infralist-com-kmIKEGO7Vl4-unsplash.jpg');
+    height: 50vh;
+    background-size: cover;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    h1 {
+        color: $secondary;
+        font-size: 65px;
+        text-shadow: 5px 5px 9px black;
+    }
+}
+
+.headCabinetImage {
+    background-image: url('../img/background/Home-Small-Office-Desk-Corner-Storage-Cabinets.jpeg');
+    height: 50vh;
+    background-size: cover;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    h1 {
+        color: $secondary;
+        font-size: 65px;
+        text-shadow: 5px 5px 9px black;
+    }
+}
+
+
+
+.footer {
+    font-size: 15px;
+    background-color: $primary;
+    color: $secondary;
+    padding: 25px;
+    a {
+        color: $secondary;
+    }
+    a:hover{
+        color: #afafaf;
+    }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 450px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        h2 {
+            padding-top: 15px;
+        }
+    }
+    .quality {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }

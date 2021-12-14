@@ -1,0 +1,445 @@
+.myContainer {
+  background-color: #E0E1DD;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+#myNavBar {
+  background-color: #1B263B;
+  -webkit-box-shadow: 0px 2px 9px black;
+          box-shadow: 0px 2px 9px black;
+  z-index: 1;
+}
+
+#myNavBar a {
+  color: #E0E1DD;
+}
+
+#myNavBar a:hover {
+  color: #afafaf;
+}
+
+#myNavBar .myBrand {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 30px;
+}
+
+#myNavBar .viewCart {
+  margin-top: 7px;
+}
+
+hr {
+  border-top: 3px solid #1B263B;
+  margin-top: 35px;
+}
+
+.headImage {
+  background-image: url("../img/background/toa-heftiba-FV3GConVSss-unsplash.jpg");
+  height: 50vh;
+  background-size: cover;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.headImage h1, .headImage p {
+  color: #E0E1DD;
+  text-shadow: 5px 5px 8px black;
+}
+
+.headImage h1 {
+  font-size: 55px;
+}
+
+.headImage p {
+  font-size: 25px;
+}
+
+.headImage button {
+  background-color: #1B263B;
+  color: #E0E1DD;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.headImage button:hover {
+  background-color: #2f4369;
+}
+
+.home-card {
+  margin-left: 30px;
+}
+
+.home-card a {
+  text-decoration: none;
+  color: #1B263B;
+}
+
+.home-card .card {
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.home-card img {
+  border: 5px solid #1B263B;
+}
+
+.home-card .display-card {
+  background-color: #E0E1DD;
+  font-size: 30px;
+}
+
+.furniture-card-outer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.furniture-card-outer .furniture-card {
+  background-color: #415A77;
+  color: #E0E1DD;
+}
+
+.furniture-card-outer .furniture-card img {
+  border: 7px solid #1B263B;
+}
+
+.furniture-card-outer .furniture-card .paypalForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.furniture-card-outer .furniture-card .paypalForm input {
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30%;
+  margin-top: 15px;
+}
+
+.furniture-card-outer .furniture-card .paypalForm img {
+  display: none;
+}
+
+.quality {
+  background-color: #415A77;
+  color: #E0E1DD;
+  padding: 90px;
+}
+
+.quality img {
+  margin-bottom: 20px;
+  border: 5px solid #1B263B;
+}
+
+.about {
+  padding: 50px;
+}
+
+.about img {
+  margin-bottom: 10px;
+  border: 7px solid #1B263B;
+}
+
+.digitalGoodCard {
+  background-color: #415A77;
+  color: #E0E1DD;
+  margin: 50px;
+  padding: 50px;
+  text-shadow: 5px 5px 9px black;
+}
+
+.autoDownload {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.homePageButton {
+  margin-top: 30px;
+}
+
+.homePageButton a {
+  background-color: #1B263B;
+  color: #E0E1DD;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#contactForm {
+  margin-right: 17%;
+  margin-left: 17%;
+  border-radius: 5px;
+  background-color: #415A77;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#contactForm h1 {
+  margin: 15px;
+  color: #E0E1DD;
+  text-align: center;
+  text-shadow: 5px 5px 9px black;
+}
+
+#contactForm input[type=text], #contactForm select, #contactForm textarea {
+  background-color: #E0E1DD;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#contactForm input[type=submit] {
+  background-color: #E0E1DD;
+  width: 100%;
+  color: #415A77;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: not-allowed;
+  margin-top: 15px;
+}
+
+#contactForm input[type=submit]:hover {
+  background-color: #c0c0c0;
+}
+
+#contactSubmission {
+  background-color: #415A77;
+  color: #E0E1DD;
+  padding: 20px;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 25px;
+  margin-top: 35px;
+}
+
+#contactSubmission h1 {
+  text-shadow: 5px 5px 9px black;
+}
+
+.login {
+  margin-right: 17%;
+  margin-left: 17%;
+  border-radius: 5px;
+  background-color: #415A77;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.login h1 {
+  margin: 15px;
+  color: #E0E1DD;
+  text-align: center;
+  text-shadow: 5px 5px 9px black;
+}
+
+.login input[type=text] {
+  background-color: #E0E1DD;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.login input[type=submit] {
+  background-color: #E0E1DD;
+  width: 100%;
+  color: #415A77;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: not-allowed;
+  margin-top: 15px;
+}
+
+.login input[type=submit]:hover {
+  background-color: #c0c0c0;
+}
+
+.login input[type=reset] {
+  background-color: #E0E1DD;
+  width: 100%;
+  color: #415A77;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.login input[type=password] {
+  background-color: #E0E1DD;
+  width: 100%;
+  color: #415A77;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: not-allowed;
+  margin-top: 15px;
+}
+
+.login .errMsg {
+  color: #E0E1DD;
+}
+
+.updateForm {
+  background-color: #415A77;
+  text-decoration: none;
+  color: red;
+}
+
+/* Hero Image Pages */
+.headFurnitureImage {
+  background-image: url("../img/background/dane-deaner-_-KLkj7on_c-unsplash.jpg");
+  height: 50vh;
+  background-size: cover;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.headFurnitureImage h1 {
+  color: #E0E1DD;
+  font-size: 65px;
+  text-shadow: 5px 5px 9px black;
+}
+
+.headAboutImage {
+  background-image: url("../img/background/kaleb-tapp-J59wWPn09BE-unsplash.jpg");
+  height: 50vh;
+  background-size: cover;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.headAboutImage h1 {
+  color: #E0E1DD;
+  font-size: 65px;
+  text-shadow: 5px 5px 9px black;
+}
+
+.headContactImage {
+  background-image: url("../img/background/dane-deaner-_-KLkj7on_c-unsplash.jpg");
+  height: 50vh;
+  background-size: cover;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.headContactImage h1 {
+  color: #E0E1DD;
+  font-size: 65px;
+  text-shadow: 5px 5px 9px black;
+}
+
+.headDeskImage {
+  background-image: url("../img/background/alexandru-acea-XEB8y0nRRP4-unsplash.jpg");
+  height: 50vh;
+  background-size: cover;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.headDeskImage h1 {
+  color: #E0E1DD;
+  font-size: 65px;
+  text-shadow: 5px 5px 9px black;
+}
+
+.headTableImage {
+  background-image: url("../img/background/infralist-com-kmIKEGO7Vl4-unsplash.jpg");
+  height: 50vh;
+  background-size: cover;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.headTableImage h1 {
+  color: #E0E1DD;
+  font-size: 65px;
+  text-shadow: 5px 5px 9px black;
+}
+
+.headCabinetImage {
+  background-image: url("../img/background/Home-Small-Office-Desk-Corner-Storage-Cabinets.jpeg");
+  height: 50vh;
+  background-size: cover;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.headCabinetImage h1 {
+  color: #E0E1DD;
+  font-size: 65px;
+  text-shadow: 5px 5px 9px black;
+}
+
+.footer {
+  font-size: 15px;
+  background-color: #1B263B;
+  color: #E0E1DD;
+  padding: 25px;
+}
+
+.footer a {
+  color: #E0E1DD;
+}
+
+.footer a:hover {
+  color: #afafaf;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 450px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer h2 {
+    padding-top: 15px;
+  }
+  .quality {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
